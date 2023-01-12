@@ -59,6 +59,14 @@ body {
     align-items: center;
 }
 
+.panel > *:first-child {
+    transform: translateY(-100%); /* start the top row content offscreen */
+}
+
+.panel > *:last-child {
+    transform: translateY(100%); /* start the top row content offscreen */
+}
+
 .panel p {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
