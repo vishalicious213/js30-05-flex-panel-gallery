@@ -1,5 +1,7 @@
 # Flex Panel Gallery
 
+Displays 5 images in columns. Clicking on a column animates it so that it expands outward (in width) and text drops-in from the top and bottom. Clicking again returns the top/bottom text and narrows the column again.
+
 ## JavaScript concepts
 
 - variables
