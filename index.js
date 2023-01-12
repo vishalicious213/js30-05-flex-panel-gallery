@@ -5,7 +5,7 @@ function toggleOpen() {
 }
 
 function toggleActive(e) {
-    console.log(e.propertyName)
+    // console.log(e.propertyName)
     // using .includes("flex" instead of === "flex-grow" because Safari calls flex-grow flex)
     if (e.propertyName.includes("flex")) {
         this.classList.toggle("open-active")
