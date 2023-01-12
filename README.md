@@ -31,3 +31,5 @@ Displays 5 images in columns. Clicking on a column animates it so that it expand
 - :first-child
 - :last-child
 - :nth-child
+
+Deployed at: https://vish213-flex-panel-gallery.netlify.app/
