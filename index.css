@@ -71,7 +71,7 @@ body {
     transform: translateY(100%); /* start the bottom row content offscreen */
 }
 
-.panel.open-active > *:lasst-child {
+.panel.open-active > *:last-child {
     transform: translateY(0); /* remove the bottom row y-axis modifier to bring content back onscreen */
 }
 
@@ -89,4 +89,5 @@ body {
 
 .panel.open {
     font-size: 40px;
+    flex: 5;
 }
