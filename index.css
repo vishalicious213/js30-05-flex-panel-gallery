@@ -63,9 +63,18 @@ body {
     transform: translateY(-100%); /* start the top row content offscreen */
 }
 
-.panel > *:last-child {
-    transform: translateY(100%); /* start the top row content offscreen */
+.panel.open-active > *:first-child {
+    transform: translateY(0); /* remove the top row y-axis modifier to bring content back onscreen */
 }
+
+.panel > *:last-child {
+    transform: translateY(100%); /* start the bottom row content offscreen */
+}
+
+.panel.open-active > *:lasst-child {
+    transform: translateY(0); /* remove the bottom row y-axis modifier to bring content back onscreen */
+}
+
 
 .panel p {
     text-transform: uppercase;
