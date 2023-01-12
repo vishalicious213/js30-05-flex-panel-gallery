@@ -17,6 +17,7 @@ body {
 .panels {
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
 }
 
 .panel {
@@ -34,6 +35,7 @@ body {
     font-size: 20px;
     background-size: cover;
     background-position: center;
+    flex: 1; /* tells all of the panel items to distribute the space in the container amongst themselves evenly */
 }
 
 .panel1 { background-image:url(https://source.unsplash.com/gYl-UtwNg_I/1500x1500); }
